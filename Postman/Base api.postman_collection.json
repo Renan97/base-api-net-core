@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "ac80ace8-6705-4f5d-ab03-518ef9c07891",
+		"name": "Base api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9155705"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7137/api/Base",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7137",
+					"path": [
+						"api",
+						"Base"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7137/api/Base/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"asdasd\",\r\n    \"surname\": \"asdasd\",\r\n    \"height\": 1.23,\r\n    \"birthday\":\"2000-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7137/api/Base/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7137",
+					"path": [
+						"api",
+						"Base",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7137/api/Base/ Copy",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"asdasd\",\r\n    \"surname\": \"asdasd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7137/api/Base/updatename/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7137",
+					"path": [
+						"api",
+						"Base",
+						"updatename",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
