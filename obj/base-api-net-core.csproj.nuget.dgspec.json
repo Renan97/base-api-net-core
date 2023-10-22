@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rsls2\\OneDrive\\Documentos\\repo\\base-api-net-core\\base-api-net-core.csproj": {}
+    "C:\\Users\\Lari\\OneDrive\\Programas\\API\\base-api-net-core\\base-api-net-core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rsls2\\OneDrive\\Documentos\\repo\\base-api-net-core\\base-api-net-core.csproj": {
+    "C:\\Users\\Lari\\OneDrive\\Programas\\API\\base-api-net-core\\base-api-net-core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rsls2\\OneDrive\\Documentos\\repo\\base-api-net-core\\base-api-net-core.csproj",
+        "projectUniqueName": "C:\\Users\\Lari\\OneDrive\\Programas\\API\\base-api-net-core\\base-api-net-core.csproj",
         "projectName": "base-api-net-core",
-        "projectPath": "C:\\Users\\rsls2\\OneDrive\\Documentos\\repo\\base-api-net-core\\base-api-net-core.csproj",
-        "packagesPath": "C:\\Users\\rsls2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rsls2\\OneDrive\\Documentos\\repo\\base-api-net-core\\obj\\",
+        "projectPath": "C:\\Users\\Lari\\OneDrive\\Programas\\API\\base-api-net-core\\base-api-net-core.csproj",
+        "packagesPath": "C:\\Users\\Lari\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lari\\OneDrive\\Programas\\API\\base-api-net-core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rsls2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Lari\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

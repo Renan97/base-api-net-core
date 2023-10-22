@@ -6,6 +6,20 @@ namespace base_api_net_core.Controllers;
 [Route("api/[controller]")]
 public class BaseController : ControllerBase
 {
+    [HttpGet("procuradorias")]
+    public async Task<IActionResult> GetProcuradoriasAsync()
+    {
+        var obj = new{
+            nome = "proc 1",
+            isActive = true
+        };
+        var obj2 = new{
+            nome = "proc 2",
+            isActive = false
+        };
+        Object[] result = {obj,obj2};
+        return Ok(result);
+    }
     [HttpGet]
     public async Task<IActionResult> GetAsync()
     {
